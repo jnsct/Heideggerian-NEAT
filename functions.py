@@ -137,7 +137,7 @@ def print_board_state(board_state, moves, size):
 
     # print agent position and item for each move
     for m in moves:
-        board_print[*m[0]] = 'P'
+        board_print[*m[0]] = 'A'
         print('Item:', item_name(m[1]))
         print(board_print,'\n','\n')
         board_print[*m[0]] = ' '
